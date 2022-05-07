@@ -115,8 +115,8 @@ const DB = "mongodb+srv://techofes:Techofes22@techofes22.wq3h0.mongodb.net/Techo
     .catch((err) => {
       console.log("DB not connected...");
     });
-  app.listen(3000, () =>                            // port variable changed to 3000
-    console.log(`App is running on Port: 3000`)
+  app.listen(4000, () =>                            // port variable changed to 3000
+    console.log(`App is running on Port: 4000`)
   );
 };
 
